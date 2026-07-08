@@ -50,8 +50,9 @@
   .header-brand { font-family: var(--serif); font-size: 1rem; color: var(--white); white-space: nowrap; }
   .header-brand span { color: var(--gold); }
   nav { display: flex; gap: 2px; flex-wrap: wrap; }
-  nav a { color: rgba(255,255,255,.7); text-decoration: none; font-size: .64rem; font-weight: 600; letter-spacing: .04em; text-transform: uppercase; padding: 5px 7px; border-radius: 4px; transition: color .15s, background .15s; white-space: nowrap; }
-  nav a:hover { color: var(--white); background: rgba(255,255,255,.1); }
+nav a { color: rgba(255,255,255,.7); text-decoration: none; font-size: .64rem; font-weight: 600; letter-spacing: .04em; text-transform: uppercase; padding: 5px 7px; border-radius: 4px; transition: color .15s, background .15s; white-space: nowrap; }
+nav a:hover { color: var(--white); background: rgba(255,255,255,.1); }
+@media(max-width:768px){ nav { display: none; } }
 
   .hero { background: linear-gradient(135deg, var(--navy) 0%, var(--lake) 100%); color: var(--white); padding: 60px 24px 52px; text-align: center; }
   .hero-eyebrow { font-size: .7rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--gold); margin-bottom: 14px; }
